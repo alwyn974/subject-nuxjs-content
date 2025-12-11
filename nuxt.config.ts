@@ -12,13 +12,4 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-04-03',
-  content: {
-     build: {
-      markdown: {
-        toc: {
-          depth: 3, // include h3 headings
-        }
-      }
-    }
-  }
 })

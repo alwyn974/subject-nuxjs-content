@@ -3,21 +3,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "nuxt build --extends docus",
+    "dev": "nuxt dev --extends docus",
+    "generate": "nuxt generate --extends docus",
+    "preview": "nuxt preview --extends docus"
   },
   "dependencies": {
-    "@nuxt/content": "^3.9.0",
+    "@nuxt/content": "3.9.0",
     "@nuxt/eslint": "1.11.0",
     "@nuxt/image": "2.0.0",
     "@nuxt/scripts": "0.13.0",
     "@nuxt/ui": "4.2.1",
-    "@unhead/vue": "^2.0.3",
-    "better-sqlite3": "^12.5.0",
-    "eslint": "^9.0.0",
-    "nuxt": "^4.2.1",
-    "typescript": "^5.6.3"
+    "@unhead/vue": "2.0.3",
+    "better-sqlite3": "12.5.0",
+    "docus": "5.4.0",
+    "eslint": "9.0.0",
+    "nuxt": "4.2.1",
+    "typescript": "5.6.3"
   }
 }
