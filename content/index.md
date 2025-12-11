@@ -20,7 +20,7 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   ---
   color: neutral
   size: xl
-  to: /starter
+  to: /linux-network-scripting
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
